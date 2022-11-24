@@ -7,6 +7,7 @@ import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
 import { SearchComponent } from './search/search.component';
+import { DeleteComponent } from './delete/delete.component';
 
 
 const myroute:Routes=[
@@ -21,6 +22,10 @@ const myroute:Routes=[
   {
     path:"search",
     component:SearchComponent
+  },
+  {
+    path:"delete",
+    component:DeleteComponent
   }
 ]
 
@@ -29,7 +34,8 @@ const myroute:Routes=[
     AppComponent,
     AdminloginComponent,
     AddemployeeComponent,
-    SearchComponent
+    SearchComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
