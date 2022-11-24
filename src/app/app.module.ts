@@ -8,6 +8,7 @@ import { Route, RouterModule, Routes } from '@angular/router';
 import { AddemployeeComponent } from './addemployee/addemployee.component';
 import { SearchComponent } from './search/search.component';
 import { DeleteComponent } from './delete/delete.component';
+import { EditComponent } from './edit/edit.component';
 
 
 const myroute:Routes=[
@@ -26,6 +27,10 @@ const myroute:Routes=[
   {
     path:"delete",
     component:DeleteComponent
+  },
+  {
+    path:"edit",
+    component:EditComponent
   }
 ]
 
@@ -35,7 +40,8 @@ const myroute:Routes=[
     AdminloginComponent,
     AddemployeeComponent,
     SearchComponent,
-    DeleteComponent
+    DeleteComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
