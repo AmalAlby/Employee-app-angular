@@ -9,6 +9,7 @@ import { AddemployeeComponent } from './addemployee/addemployee.component';
 import { SearchComponent } from './search/search.component';
 import { DeleteComponent } from './delete/delete.component';
 import { EditComponent } from './edit/edit.component';
+import { ViewComponent } from './view/view.component';
 
 
 const myroute:Routes=[
@@ -31,6 +32,10 @@ const myroute:Routes=[
   {
     path:"edit",
     component:EditComponent
+  },
+  {
+    path:"view",
+    component:ViewComponent
   }
 ]
 
@@ -41,7 +46,8 @@ const myroute:Routes=[
     AddemployeeComponent,
     SearchComponent,
     DeleteComponent,
-    EditComponent
+    EditComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
