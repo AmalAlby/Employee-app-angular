@@ -10,6 +10,7 @@ import { SearchComponent } from './search/search.component';
 import { DeleteComponent } from './delete/delete.component';
 import { EditComponent } from './edit/edit.component';
 import { ViewComponent } from './view/view.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const myroute:Routes=[
@@ -47,7 +48,8 @@ const myroute:Routes=[
     SearchComponent,
     DeleteComponent,
     EditComponent,
-    ViewComponent
+    ViewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
