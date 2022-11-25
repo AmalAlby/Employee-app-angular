@@ -2,36 +2,22 @@
 <table class="table table-dark table-striped">
     <thead>
       <tr>
-        <th scope="col">#</th>
         <th scope="col">Name</th>
-        <th scope="col">code</th>
         <th scope="col">Designation</th>
+        <th scope="col">Salary</th>
+        <th scope="col">Email ID</th>
+        <th scope="col">ID</th>
       </tr>
     </thead>
+
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>1000</td>
-        <td>SoftwareEngineer</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>1002</td>
-        <td>Tester</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td >Larry</td>
-        <td>1005</td>
-        <td>LeadEngineer</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td >Harry</td>
-        <td>1007</td>
-        <td>LeadEngineer</td>
+      <tr *ngFor ="let i of data" >
+        <th scope="row">{{i.name}}</th>
+        <td>{{i.designation}}</td>
+        <td>{{i.salary}}</td>
+        <td>{{i.emailid}}</td>
+        <td>{{i.id}}</td>
       </tr>
     </tbody>
+
   </table>

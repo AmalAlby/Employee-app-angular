@@ -7,4 +7,41 @@ import { Component } from '@angular/core';
 })
 export class ViewComponent {
 
+  data:any =[
+    {
+      "name":"Amal",
+      "designation":"Trainee",
+      "salary":30000,
+      "emailid":"aaa@abc.com",
+      "id":1234
+    },
+    {
+      "name":"Joel",
+      "designation":"Trainee",
+      "salary":20000,
+      "emailid":"jjj@abc.com",
+      "id":1235
+    },
+    {
+      "name":"Sanal",
+      "designation":"MD",
+      "salary":300000,
+      "emailid":"aaa@abc.com",
+      "id":1236
+    },
+    {
+      "name":"Roy",
+      "designation":"Trainee",
+      "salary":30000,
+      "emailid":"mmm@abc.com",
+      "id":1237
+    },
+    {
+      "name":"John",
+      "designation":"Manager",
+      "salary":40000,
+      "emailid":"hhh@abc.com",
+      "id":1238
+    }
+  ]
 }
